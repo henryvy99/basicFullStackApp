@@ -1,7 +1,7 @@
 # basicFullStackApp
 This app is a simple Full Stack Application that connects both Frontend and Backend along with a database locally.<br>
 The backend is an API Spring Boot Application that connects to a MySQL database.<br>
-The frontend is using React.<br>
+The frontend is using React that makes HTTP calls to the backend app.<br>
 ***Work is still in progress for the frontend...***
 
 ### Requirements
@@ -53,6 +53,6 @@ This should open up a localhost:3000 port on your browser
 # Expected Result
 The frontend is still a work in progress so currently it is just displaying the list of blogs from your MySQL database. It should be displaying the Blog's Title on the webpage and the Blog Objects in the console. It is only calling one endpoint, which is the "/api/v2/blog" endpoint.
 
-You use expect to see something like this (depending if you have data in the restapi.blog db).
+Make sure to have the MySQL server and backend running first before starting your frontend. You use expect to see something like this (depending if you have data in the restapi.blog db).
 
 ![Screen Shot 2022-02-05 at 2 16 06 PM](https://user-images.githubusercontent.com/54555626/152655766-85333039-1b39-4f4e-9073-f7fa4f88453b.png)
