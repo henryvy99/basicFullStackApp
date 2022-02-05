@@ -1,5 +1,7 @@
 # basicFullStackApp
 This app is a simple Full Stack Application that connects both Frontend and Backend along with a database locally.<br>
+The backend is an API Spring Boot Application that connects to a MySQL database.<br>
+The frontend is using React.<br>
 ***Work is still in progress for the frontend...***
 
 ### Requirements
