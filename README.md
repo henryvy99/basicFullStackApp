@@ -12,7 +12,7 @@ This app is asimple Full Stack Application that connects both Frontend and Backe
 * node
 
 # Backend App
-Open through Intellij<br>
+Open backend folder through Intellij<br>
 Backend App is a Spring Boot application using java 11 and Apache Maven 3.8.4<br>
 It is also connecting to a mysql database locally. I used this link to help me get started with this project:<br>
 https://betterprogramming.pub/building-a-spring-boot-rest-api-part-iii-integrating-mysql-database-and-jpa-81391404046a
@@ -36,7 +36,7 @@ Test using postman to see if you are getting any response.<br>
 Make sure that the backend is running on localhost:8080
 
 # Frontend App
-Clone frontend repo and open through VSCODE.
+Open frontend folder through VSCODE.
 
 First install all dependencies with
 
