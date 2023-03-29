@@ -2,6 +2,7 @@
 This app is a simple Full Stack Application that connects both Frontend and Backend along with a database locally.<br>
 The backend is an API Spring Boot Application that connects to a MySQL database.<br>
 The frontend is using React that makes HTTP calls to the backend app.<br>
+Alternatively, there is another frontend app that is using Angular.<br>
 ***Work is still in progress for the frontend...***
 
 ### Requirements
@@ -37,7 +38,7 @@ Clone the backend app repo and run it locally.<br>
 Test using postman to see if you are getting any response.<br>
 Make sure that the backend is running on localhost:8080
 
-# Frontend App
+# React Frontend App
 Open the frontend-app folder through VSCODE.
 
 First install all dependencies with
@@ -49,6 +50,19 @@ To start the web server, run
     npm start
     
 This should open up a localhost:3000 port on your browser
+
+# Angular Frontend App
+Open the frontend-app folder through VSCODE.
+
+First install all dependencies with
+
+    npm install
+
+To start the web server, run
+
+    npm start
+    
+This should open up a localhost:4200 port on your browser
 
 # Expected Result
 The frontend is still a work in progress so currently it is just displaying the list of blogs from your MySQL database. It should be displaying the Blog's Title on the webpage and the Blog Objects in the console. It is only calling one endpoint, which is the "/api/v2/blog" endpoint.
